@@ -1,39 +1,49 @@
-'use client'
-import React, { useEffect, useState } from 'react';
 
-const Test = () => {
-  const [userData, setUserData] = useState<{ id: number; name: string }[] | null>(null);
-  const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const res = await fetch('http://localhost:3000/api/test');
-        const data = await res.json();
-        setUserData(data);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      } finally {
-        setLoading(false);
-      }
-    }
-
-    fetchData();
-  }, []);
-
-  if (loading) {
-    return <div>Loading...</div>;
+const Test =  async () => {
+  
+ async function create() {
+    'use server'
+    const res = await fetch('http://localhost:3000/api/test');
+    const data = await res.json();
+    return data
   }
 
-  if (!userData) {
-    return <div>No data available</div>;
+ const usaerData : {id:number, name: string}[] = await create();
+ 
+  console.log(usaerData)
+
+  if (!usaerData) {
+    return <div>Loading...</div>;
   }
 
   return (
     <div>
-      <span className="text-[100px]">{userData[0]?.name}</span>
+      <span className="text-[100px]">{usaerData[0]?.name}</span>
+      {/* <Image fill src='/cover.png' alt='amr' /> */}
     </div>
   );
 };
 
-export default Test;
+// Fetch data on the server side
+// export async function getServerSideProps() {
+//   try {
+//     const res = await fetch('http://localhost:3001/api/test');
+//     const data = await res.json();
+
+//     return {
+//       props: {
+//         data,
+//       },
+//     };
+//   } catch (error) {
+//     console.error('Error fetching data:', error);
+//     return {
+//       props: {
+//         data: null,
+//       },
+//     };
+//   }
+// }
+
+export default Test; 

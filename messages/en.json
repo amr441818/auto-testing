@@ -1,0 +1,77 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  
+    "about_page": {
+        "page_title": "About Us",
+        "breadcrumb": {
+            "current_page": "About Us",
+            "home_page": "Home"
+        }
+    },
+   
+
+  "HomePageMetaData": {
+    "title": "Tourism Platform",
+    "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit"
+  },
+
+  "Header": {
+  "homeLink": "Home",
+        "aboutUs": "about us  ",
+        "services": "Services ",
+        "news": "News",
+        "contactUs": "Contact Us ",
+        "login": "Login ",
+        "logout": " Logout",
+        "register": " New User",
+        "profile": "Profile",
+        "myAccount": "My Account",
+        "english": "English",
+        "arabic": "Arabic"
+
+
+  },
+  
+"tabs": {
+            "residencies": "Residencies",
+            "cars": "Car rental",
+            "flights": "Flights Trips",
+            "trains": "trains"
+        },
+        
+"cabinClass": {
+          "economy": "Economy Class",
+          "premiumEconomy": "Premium Economy Class",
+          "business": "Business Class",
+          "firstClass": "First Class"
+      },
+      "flightSearchResult": {
+        "oneWayTrip": "One way Trip",
+        "twoWayTrip": "Round trip",
+        "roundTrip": "multiple cities",
+        "from": "from",
+        "at": "at",
+        "to": "to",
+        "departure": "Departure",
+        "return": "Return",
+        "departureDate": "Departure date",
+        "ReturnDate": "Return date",
+        "theDate": "the date",
+        "addTrip": "Add a trip",
+        "loadingMsg1": "Please wait a few moments !",
+        "loadingMsg2": "We are searching for flights that matchs your destination"
+    },
+    "passengers": {
+        "adults": "Adults",
+        "children": "Child",
+        "babies": "babies",
+        "ageRanges": {
+            "children": "2 to 12 years old",
+            "babies": "Under 2 years old"
+        }
+    },
+    "search": "Search"
+}

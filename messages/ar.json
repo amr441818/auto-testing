@@ -1,0 +1,76 @@
+{
+  "HomePage": {
+    "title": "الصفحة الرئيسية",
+    "about": "من نحن"
+  },
+  "header_carousel": {
+    "about_page": {
+        "page_title": "عن الموقع",
+        "breadcrumb": {
+            "current_page": "عن الموقع",
+            "home_page": "الرئيسية"
+        }
+    },
+    "home_page": {
+        "welcome_message": "! مرحباً بك",
+        "description": "اكتشف أفضل العروض والإقامات الفاخرة حول العالم"
+    }
+},
+  "HomePageMetaData": {
+    "title": "منصة السياحة",
+    "description":"توجد منصات سياحية متعددة تقدم خدمات متنوعة تشمل تنظيم الرحلات السياحية، تسويق الأنشطة، وإدارة الحجوزات والتقارير. يمكنك استخدام هذه المنصات لتحسين الخدمات التي تقدمها وتحسين تجربة الزيارة للزوار."
+  },
+
+  "Header": {
+    "homeLink": "الرئيسية",
+    "aboutUs": "عن الموقع ",
+    "services": "خدماتنا ",
+    "news": "الاخبار",
+    "contactUs": "تواصل معنا ",
+    "login": "تسجيل الدخول ",
+    "logout": "تسجيل خروج",
+    "register": "مستخدم جديد",
+    "profile": "الملف الشخصى",
+    "myAccount": "حسابى",
+    "english": "الانجليزية",
+    "arabic": "العربية"
+  
+  } , "tabs": {
+    "residencies": "الإقامات",
+    "cars": "تأجير السيارات",
+    "flights": "الرحلات الجوية",
+    "trains": "القطارات"
+},
+"cabinClass": {
+  "economy": "الدرجة الإقتصادية",
+  "premiumEconomy": "الدرجة السياحية المميزة",
+  "business": "درجة أعمال",
+  "firstClass": "الدرجة الأولى"
+},"flightSearchResult": {
+        "oneWayTrip": "ذهاب فقط",
+        "twoWayTrip": "ذهاب وعودة",
+        "roundTrip": "مدن متعددة",
+        "from": "من",
+        "at": "في",
+        "departure": "المغادرة",
+        "return": "الوصول",
+        "to": "إلي",
+        "departureDate": "تاريخ المغادرة",
+        "ReturnDate": "تاريخ العودة",
+        "theDate": "التاريخ",
+        "addTrip": "  أضف رحلة اخري",
+        "loadingMsg1": "انتظر لحظات قليلة !",
+        "loadingMsg2": "نحن نبحث عن رحلات  تناسب تواريخك ووجهتك."
+    },
+    "passengers": {
+        "adults": "بالغ",
+        "children": "طفل",
+        "babies": "رضيع",
+        "ageRanges": {
+            "children": "من 2 إلى 12 سنة",
+            "babies": "أقل من سنتين"
+        }
+    },
+    "search": "بحث"
+    
+}
